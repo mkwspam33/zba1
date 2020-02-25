@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" extends="dl_matcher" label="Problem Priority Data Lookup" max_length="40" name="dl_problem_priority" sizeclass="9" type="collection">
+        <element choice="1" choice_field="urgency" choice_table="problem" label="Urgency" max_length="40" name="urgency" type="choice">
+            <choice/>
+        </element>
+    </element>
+</database>
